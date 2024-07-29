@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+actix = "^0.13.5"
 actix-web = "^4"
+actix-web-actors = "^4.3.0"
 serde = { version = "^1", features = ["derive"] }
 log = "^0.4"
